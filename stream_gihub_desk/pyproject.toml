@@ -1,0 +1,19 @@
+[project]
+name = "stream-gihub-desk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdullah17-dev", email = "abdullarajpoot1585@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.43.0",
+]
+
+[project.scripts]
+stream-gihub-desk = "stream_gihub_desk:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
